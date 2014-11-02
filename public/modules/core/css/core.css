@@ -51,11 +51,11 @@
 }
 
 .navbar-brand {
-	background-image: url(../img/logo.png);
-	background-image: url('../img/logo.svg');
 	background-repeat: no-repeat;
 	height: 72px;
 	width: 418px;
+	background-image: url(../img/logo.png);
+	background-image: url('../img/logo.svg'), none;
 }
 
 .navbar-nav > li > a {
