@@ -1,7 +1,11 @@
 'use strict';
 
 module.exports = {
-	//db: process.env.MONGOHQ_URL || process.env.MONGOLAB_URI || 'mongodb://localhost/avanticycling',
+	app: {
+		title: 'AvantiCycling',
+		description: 'Cycle training',
+		keywords: 'Greg, Woodford, Cycle, Training, Bikeability'
+	},
 	assets: {
 		lib: {
 			css: [
