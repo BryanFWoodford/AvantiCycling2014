@@ -4,7 +4,7 @@ module.exports = {
 	app: {
 		title: 'AvantiCycling',
 		description: 'Cycle training',
-		keywords: 'Greg, Woodford, Cycle, Training, Bikeability'
+		keywords: 'Greg, Woodford, Avanti, Cycle, Training, Bikeability'
 	},
 	port: process.env.PORT || 3000,
 	templateEngine: 'swig',

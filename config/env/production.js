@@ -2,9 +2,9 @@
 
 module.exports = {
 	app: {
-		title: 'AvantiCycling',
+		title: 'Avanti Cycling',
 		description: 'Cycle training',
-		keywords: 'Greg, Woodford, Cycle, Training, Bikeability'
+		keywords: 'Greg, Woodford, Avanti, Cycle, Training, Bikeability'
 	},
 	assets: {
 		lib: {
