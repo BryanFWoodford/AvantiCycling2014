@@ -57,7 +57,7 @@ angular.module(ApplicationConfiguration.applicationModuleName).directive('anchor
                 // This scrolling function 
                 // is from http://www.itnewb.com/tutorial/Creating-the-Smooth-Scroll-Effect-with-JavaScript
                 
-                var headerHeight = 110;
+                var headerHeight = 90;
                 var i;
                 var startY = currentYPosition();
                 var stopY = elmYPosition(eID) - headerHeight;

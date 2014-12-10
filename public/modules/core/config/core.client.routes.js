@@ -6,6 +6,12 @@ angular.module('core').config(['$stateProvider', '$urlRouterProvider',
 		// Redirect to home view when route not found
 		$urlRouterProvider.otherwise('/');
 
+		$stateProvider.
+		state('bikeability', {
+			url: '/bikeability',
+			templateUrl: 'modules/core/views/bikeability.client.view.html'
+		});
+
 		// Home state routing
 		$stateProvider.
 		state('home', {
