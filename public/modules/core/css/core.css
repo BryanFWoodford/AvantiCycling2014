@@ -26,6 +26,8 @@ a {
   	background-image:         linear-gradient(to bottom, rgba(60,60,60, 0.7) 0%, rgba(34,34,34, 0.7) 50%);
   	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff3c3c3c', endColorstr='#ff222222', GradientType=0);
   	filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+  	background-color: transparent;
+	border-color: transparent;
 }
 
 .undecorated-link:hover {
