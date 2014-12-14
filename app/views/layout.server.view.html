@@ -29,9 +29,16 @@
 	<section class="content">
 		<section class="container">
 			{% block content %}{% endblock %}
+
+			<section class="footer">
+				<div class="jumbotron">
+					<div class="row">
+						Registered in England no...
+					</div>
+				</div>
+			</section>
 		</section>
 	</section>
-
 	{% for jsFile in jsFiles %}<script type="text/javascript" src="{{jsFile}}"></script>
 	{% endfor %} 
 

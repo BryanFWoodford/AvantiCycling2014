@@ -1,9 +1,18 @@
+a {
+	color: #0a9bb5;
+}
+
 .container {
 	padding: 5px;
 }
 
 .content {
 	padding-top: 75px;
+}
+
+.navbar-header {
+	margin-left: 10px !important;
+	margin-right: 0 !important;
 }
 
 .navbar-inverse {
@@ -38,18 +47,28 @@
 
 .content {
 	height: 100%;
+	min-height: 850px;
 	background-image: url(/modules/core/img/bikes.jpg);
 	background-attachment: fixed;
 	background-position: center center;
 	background-size: cover;
 }
 
+.container .jumbotron {
+	padding-left: 30px;
+}
+
 .jumbotron {
 	color: white;
 	background-color: rgb(10, 155, 181);
 	background-color: rgba(10, 155, 181, 0.9);
-	margin-top: 30px;
+	margin: 10px 0 15px 0;
 	padding: 10px 20px;
+}
+
+.jumbotron p {
+	margin-bottom: 10px;
+	font-size: 18px;
 }
 
 .navbar-brand {
@@ -77,9 +96,18 @@
 	margin-bottom: 30px;
 }
 
+h1 {
+	margin-top: 0;
+}
+
 h2 {
-	font-size: 34px;
-	padding: 0 0 10px 0;
+	font-size: 30px;
+	margin-top: 10px;
+	/*padding: 0 0 10px 0;*/
+}
+
+h3 {
+	font-size: 20px;
 }
 
 .body-copy h2:first-child {
@@ -87,6 +115,7 @@ h2 {
 }
 
 .body-copy h2 {
+	margin-top: 0;
 	font-weight: bold;
 }
 
@@ -94,12 +123,12 @@ h2 {
 	padding: 0;
 }
 
-.body-copy li {
+.body-copy ul li {
 	/*list-style-type: circle;*/
 	list-style: none;
 }
 
-.body-copy li:before {
+.body-copy ul li:before {
 	margin: 7px;
 	margin-left: 0;
 	padding: 0;
@@ -121,7 +150,7 @@ h2 {
 
 .navbar-inverse .navbar-nav>li>a{color:white !important;}
 
-#calendar {
+.calendar {
 	margin: 20px 0;
 }
 
@@ -132,3 +161,33 @@ table td, table th {
 table th {
 	font-size: 20px;
 }
+
+ol.numbered {
+	list-style-type: decimal;
+}
+
+ol.lettered {
+	list-style-type:lower-alpha;
+}
+
+.support-image {
+	float: right;
+}
+
+@media screen and (max-width: 800px) {
+	.navbar-header img {
+		max-height: 40px;
+		width: auto;
+		margin-top: 5px;
+	}
+
+	.support-image {
+		float: right;
+		margin-bottom:10px;
+	}
+
+	.support-image img {
+		height: 180px;
+	}
+}
+

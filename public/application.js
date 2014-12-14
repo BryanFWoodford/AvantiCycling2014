@@ -19,7 +19,7 @@ angular.element(document).ready(function() {
 // Smooth scrolling for links
 angular.module(ApplicationConfiguration.applicationModuleName).directive('anchorSmoothScroll', function($location) {
     'use strict';
- 
+ 	var isCollapsed = isCollapsed;
     return {
         restrict: 'A',
         replace: false,
@@ -44,7 +44,7 @@ angular.module(ApplicationConfiguration.applicationModuleName).directive('anchor
                 $element.on('click', function() {
                     // set the hash like a normal anchor scroll
                     $location.hash($scope.anchorSmoothScroll);
- 
+ 					
                     // smooth scroll to the passed in element
                     scrollTo($scope.anchorSmoothScroll);
                 });
