@@ -206,5 +206,9 @@ ol.lettered {
 	.support-image img {
 		height: 180px;
 	}
+
+	.strapline {
+		font-size: 8px;
+	}
 }
 
