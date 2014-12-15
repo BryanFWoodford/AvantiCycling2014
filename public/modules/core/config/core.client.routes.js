@@ -24,6 +24,12 @@ angular.module('core').config(['$stateProvider', '$urlRouterProvider',
 			templateUrl: 'modules/core/views/instructortraining.client.view.html'
 		});
 
+		$stateProvider.
+		state('consultancy', {
+			url: '/consultancy',
+			templateUrl: 'modules/core/views/consultancy.client.view.html'
+		});
+
 		// Home state routing
 		$stateProvider.
 		state('home', {

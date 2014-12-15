@@ -10,6 +10,16 @@ a {
 	padding-top: 75px;
 }
 
+.strapline {
+	position: absolute;
+	top: 54px;
+	left: 97px;
+	color: white;
+	font-style: italic;
+	font-size: 12px;
+	letter-spacing: 2.5px;
+}
+
 .navbar-header {
 	margin-left: 10px !important;
 	margin-right: 0 !important;
@@ -28,6 +38,10 @@ a {
   	filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
   	background-color: transparent;
 	border-color: transparent;
+}
+
+.navbar-right {
+	margin-right: 20px !important;
 }
 
 .undecorated-link:hover {
@@ -49,7 +63,7 @@ a {
 
 .content {
 	height: 100%;
-	min-height: 850px;
+	min-height: 950px;
 	background-image: url(/modules/core/img/bikes.jpg);
 	background-attachment: fixed;
 	background-position: center center;
@@ -84,7 +98,7 @@ a {
 .navbar-nav > li > a {
 	margin-left: 20px;
 	padding-top:  20px;
-	font-size: 22px;
+	font-size: 20px;
 	color: white;
 }
 
@@ -185,6 +199,7 @@ ol.lettered {
 
 	.support-image {
 		float: right;
+		margin-top: 0;
 		margin-bottom:10px;
 	}
 
