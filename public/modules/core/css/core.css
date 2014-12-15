@@ -208,7 +208,10 @@ ol.lettered {
 	}
 
 	.strapline {
-		font-size: 8px;
+		position: absolute;
+		top: 45px;
+		left: 16px;
+		font-size: 5px;
 	}
 }
 
