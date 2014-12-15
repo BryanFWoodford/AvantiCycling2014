@@ -207,6 +207,15 @@ ol.lettered {
 		height: 180px;
 	}
 
+	.recycling-symbol {
+		width: 100%;
+	}
+
+	.recycling-symbol img {
+		height: 80px;
+		margin: 0 auto;
+	}
+
 	.strapline {
 		position: absolute;
 		top: 45px;
