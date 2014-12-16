@@ -13,7 +13,6 @@ a {
 .strapline {
 	position: absolute;
 	top: 54px;
-	left: 97px;
 	color: white;
 	font-style: italic;
 	font-size: 12px;
@@ -21,6 +20,7 @@ a {
 }
 
 .navbar-header {
+	/*float: left;*/
 	margin-left: 10px !important;
 	margin-right: 0 !important;
 }
@@ -96,9 +96,9 @@ a {
 }
 
 .navbar-nav > li > a {
-	margin-left: 20px;
+	/*margin-left: 20px;*/
 	padding-top:  20px;
-	font-size: 20px;
+	font-size: 18px;
 	color: white;
 }
 
@@ -190,11 +190,15 @@ ol.lettered {
 	float: right;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
 	.navbar-header img {
 		max-height: 40px;
 		width: auto;
 		margin-top: 5px;
+	}
+
+	.navbar-nav > li > a {
+		font-size: 14px;
 	}
 
 	.support-image {
@@ -219,7 +223,6 @@ ol.lettered {
 	.strapline {
 		position: absolute;
 		top: 45px;
-		left: 16px;
 		font-size: 5px;
 	}
 }
