@@ -190,6 +190,10 @@ ol.lettered {
 	float: right;
 }
 
+.support-image img {
+	border-radius: 6px;
+}
+
 @media screen and (max-width: 1000px) {
 	.navbar-header img {
 		max-height: 40px;
