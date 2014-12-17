@@ -194,6 +194,24 @@ ol.lettered {
 	border-radius: 6px;
 }
 
+.footer-container {
+	margin-top: -15px;
+}
+
+.footer {
+	border-radius: 6px;
+	color: #fff;
+	background-color: #0a9bb5;
+	background-color: rgba(10,155,181,.9);
+	margin: 0;
+	padding: 10px 20px;
+}
+
+.footer .row {
+	margin-left: 10px;
+	margin-right: 0;
+}
+
 @media screen and (max-width: 1000px) {
 	.navbar-header img {
 		max-height: 40px;
